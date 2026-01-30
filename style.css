@@ -1,0 +1,81 @@
+/* General Body Styling (Toturial 2 Exercise) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: blue; /* Testing Specificity: Header text remains white*/
+}
+
+/* Tutorial 2: Mastering Space & Flexbox */
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background: #333;
+    color: white; /* This overrides the blue body color */
+}
+
+/* Navigation Challenge: Horizontal Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff4757;
+    text-decoration: underline;
+}
+
+/* Tutorial 2: Styling the Main Content */
+.main-content {
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    min-height: 200px;
+    border: 1px solid #ddd;
+}
+
+/* Exercise: The New Sidebar Box */
+.sidebar {
+    background-color: #2ecc2e; /* Green background */
+    color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* Step 5: The Interaction (Hover State)*/
+.cta-button {
+    background-color: #ff4757;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff6b81;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0,2);
+}
+
+/* Tutorial 1 & Exercise: The Footer*/
+ .footer-section {
+    background-color: #222;
+    color: #888;
+    padding: 30px; /* Increased padding per challenge */
+    text-align: center;
+    font-size: 12px;
+ }
